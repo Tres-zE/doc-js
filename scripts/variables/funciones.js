@@ -17,6 +17,7 @@ function multiplica(num1, num2) {
     let resultado = num1 * num2;
     return resultado;
 }
+//NOTA: RETURN: le dice al navegador que devuelva la variable resultado fuera de la función, para que esté disponible para su uso. Esto es necesario porque las variables definidas dentro de funciones, solo están disponibles dentro de esas funciones. Esto se conoce como «ámbito (scope en inglés) de la variable».
 
 console.log(multiplica(4,7));
 
